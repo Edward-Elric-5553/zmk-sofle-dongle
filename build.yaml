@@ -13,9 +13,9 @@ include:
     artifact-name: eyelash_sofle_central_dongle_oled
   - board: nice_nano_v2
     shield: eyelash_sofle_peripheral_left nice_view_anim
-    cmake-args: -DCONFIG_ZMK_NICE_VIEW_ANIM_VARIANT=1
+    cmake-args: -DCONFIG_ZMK_NICE_VIEW_ANIM_VARIANT=0
   - board: nice_nano_v2
     shield: eyelash_sofle_peripheral_right nice_view_anim
-    cmake-args: -DCONFIG_ZMK_NICE_VIEW_ANIM_VARIANT=2
+    cmake-args: -DCONFIG_ZMK_NICE_VIEW_ANIM_VARIANT=1
   - board: nice_nano_v2
     shield: settings_reset
