@@ -8,6 +8,9 @@ manifest:
       url-base: https://github.com/tokyo2006
     - name: englmaxi
       url-base: https://github.com/englmaxi
+    - name: Edward-Elric-5553
+      url-base: https://github.com/Edward-Elric-5553
+      
   projects:
     - name: mario-peripheral-animation
       remote: gpeye
@@ -21,6 +24,9 @@ manifest:
       revision: micro_spi2  
     - name: zmk-dongle-display
       remote: englmaxi
+      revision: main
+    - name: nice-view-anim
+      remote: Edward-Elric-5553
       revision: main
   self:
     path: config
